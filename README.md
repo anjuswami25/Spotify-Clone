@@ -33,5 +33,25 @@ Play your favorite songs, navigate between tracks, and enjoy smooth controls —
 
 ---
 
-## 📁 Project Structure
+
+---
+
+## 🛠️ Tech Stack
+
+- HTML5
+- CSS3
+- JavaScript (Vanilla)
+- Font Awesome (for music control icons)
+
+---
+
+## 💻 Getting Started
+
+To run this project locally:
+
+```bash
+git clone https://github.com/your-username/spotify-clone.git
+cd spotify-clone
+# Open index.html in your browser
+
 
