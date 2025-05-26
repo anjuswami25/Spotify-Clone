@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Favourite Music List</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            <li class="brand"><img src="logo.png" alt="spotify">Spotify</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+
+    <!-- Main Container -->
+    <div class="container">
+        <h1>Best of NCS - No Copyright Sounds</h1>
+
+        <div class="songItemContainer">
+            <!-- Song Item 1 -->
+            <div class="songItem">
+                <img alt="1">
+                <span class="songName">Tere Hath Me</span>
+                <span class="songListPlay">
+                    <span class="timestamp">05:34 
+                        <i id="0" class="fa-solid fa-circle-play songItemPlay"></i>
+                    </span>
+                </span>
+            </div>
+
+            <!-- Song Item 2 -->
+            <div class="songItem">
+                <img alt="2">
+                <span class="songName">Love You Oye</span>
+                <span class="songListPlay">
+                    <span class="timestamp">04:20 
+                        <i id="1" class="fa-solid fa-circle-play songItemPlay"></i>
+                    </span>
+                </span>
+            </div>
+
+            <!-- Song Item 3 -->
+            <div class="songItem">
+                <img alt="3">
+                <span class="songName">Pani Da Rang</span>
+                <span class="songListPlay">
+                    <span class="timestamp">03:45 
+                        <i id="2" class="fa-solid fa-circle-play songItemPlay"></i>
+                    </span>
+                </span>
+            </div>
+
+            <!-- Song Item 4 -->
+            <div class="songItem">
+                <img alt="4">
+                <span class="songName">Teri Ore</span>
+                <span class="songListPlay">
+                    <span class="timestamp">04:55 
+                        <i id="3" class="fa-solid fa-circle-play songItemPlay"></i>
+                    </span>
+                </span>
+            </div>
+
+            <!-- Song Item 5 -->
+            <div class="songItem">
+                <img alt="5">
+                <span class="songName">Tere Hath Me</span>
+                <span class="songListPlay">
+                    <span class="timestamp">05:12 
+                        <i id="4" class="fa-solid fa-circle-play songItemPlay"></i>
+                    </span>
+                </span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bottom Music Player -->
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar" min="0" value="0" max="100">
+        
+        <div class="icons">
+            <i class="fa-solid fa-backward" id="previous"></i>
+            <i class="fa-solid fa-circle-play" id="masterPlay"></i>
+            <i class="fa-solid fa-forward" id="next"></i>
+        </div>
+
+        <div class="songInfo">
+            <img src="playing.gif" width="120px" height="20px" alt="" id="gif" style="opacity: 0;">
+            <span id="currentSongName">    My Favourite Songs     </span>
+        </div>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
